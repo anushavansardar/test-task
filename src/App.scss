@@ -1,0 +1,107 @@
+.container {
+  background-color: #eeeeee;
+  padding: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh;
+
+  h1 {
+    margin-bottom: 32px;
+    font-weight: 500;
+  }
+
+  .inputContainer {
+    margin-bottom: 40px;
+    min-width: 300px;
+    &.sliderContainer {
+      margin-bottom: 80px;
+    }
+    &.checkboxesContainer {
+      margin-bottom: 64px;
+    }
+    &.third {
+      width: 33%;
+    }
+    &.half {
+      width: 50%;
+    }
+    &.full {
+      width: 100%;
+    }
+    .label {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+    .ant-input {
+      margin-bottom: 8px;
+      &:hover {
+        border: 1px solid #bcadfc;
+      }
+      &:focus {
+        border: 1px solid #bcadfc;
+        box-shadow: none;
+      }
+    }
+    .ant-select {
+      margin-bottom: 8px;
+      width: 100%;
+      &:hover {
+        .ant-select-selector {
+          border: 1px solid #bcadfc !important;
+        }
+      }
+      &.ant-select-focused {
+        .ant-select-selector {
+          border-color: #bcadfc !important;
+          box-shadow: none !important;
+        }
+      }
+    }
+    .message {
+      font-size: 12px;
+      color: #a9b0b3;
+      &.error {
+        color: #eb5757;
+      }
+    }
+  }
+
+  .checkboxContainer {
+    margin-bottom: 12px;
+
+    .checkboxText {
+      margin-left: 12px;
+    }
+  }
+  .additionalServices {
+    display: flex;
+    .service {
+      &.active {
+        background-color: #fff;
+      }
+      cursor: pointer;
+      padding: 12px 12px 6px;
+      border-radius: 32px 32px 12px 12px;
+      margin-right: 12px;
+      svg {
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .price {
+        margin-top: 6px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 24px;
+}

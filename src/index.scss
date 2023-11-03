@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+  font-weight: 400;
+}
+
+.ant-slider-dot {
+  display: none;
+}
+
+.ant-slider-mark {
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.ant-slider-track {
+  background-color: #7a5cfa !important;
+}
+
+.black-slider {
+  .ant-slider-track {
+    background-color: black !important;
+  }
+}
+
+.ant-select-item-option-selected {
+  background-color: #fff !important;
+}
+
+.ant-select-item-option-active {
+  background-color: #7a5cfa !important;
+  color: #fff !important;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.ant-btn-primary {
+  background-color: #7a5cfa !important;
+  span {
+    font-weight: 300;
+  }
+}
+
+.ant-checkbox-inner {
+  border-color: #7a5cfa !important;
+}
+.ant-checkbox-checked {
+  .ant-checkbox-inner {
+    background-color: #7a5cfa !important;
+    border-color: #7a5cfa !important;
+  }
+}
